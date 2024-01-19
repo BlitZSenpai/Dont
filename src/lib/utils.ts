@@ -5,4 +5,6 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const cacheUrl = "https://webcache.googleusercontent.com/search?q=cache:";
+export const cacheUrl = "http://webcache.googleusercontent.com/search?q=cache:";
+
+export const cacheEnd = "&sca_esv=599792272&strip=1&vwsrc=0";
