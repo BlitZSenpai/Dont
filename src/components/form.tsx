@@ -6,7 +6,7 @@ import { Input } from "./ui/input";
 import { cacheEnd, cacheUrl } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 
-export const UrlInput = () => {
+export const FormComponent = () => {
   const router = useRouter();
   const [value, setValue] = useState("");
 

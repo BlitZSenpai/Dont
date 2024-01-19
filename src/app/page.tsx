@@ -1,12 +1,10 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { FormComponent } from "@/components/form";
 
 function Home() {
   return (
-    <div className="h-full w-full">
-      <div>
-        <Input placeholder="Enter medium blog url" />
-        <Button>Search</Button>
+    <div className="h-dvh w-full">
+      <div className="flex h-full items-start justify-center">
+        <FormComponent />
       </div>
     </div>
   );
