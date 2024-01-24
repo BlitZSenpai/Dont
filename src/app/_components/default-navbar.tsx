@@ -1,5 +1,4 @@
 import { Logo } from "@/components/logo";
-import { ModeToggle } from "./darkmode-toggle";
 import { Links } from "./links";
 import { OtherStuff } from "./otherstuff";
 
