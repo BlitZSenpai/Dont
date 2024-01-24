@@ -1,14 +1,15 @@
 import { Logo } from "@/components/logo";
 import { ModeToggle } from "./darkmode-toggle";
 import { Links } from "./links";
+import { OtherStuff } from "./otherstuff";
 
 export const DefaultNavbar = () => {
   return (
     <div className="inset-x-0 top-0 dark:bg-neutral-950/70 backdrop:blur-md opacity-70 fixed">
-      <div className="w-full flex justify-between p-6 px-10 items-center">
+      <div className="w-full flex justify-between p-6 px-16 items-center">
         <Logo />
         <Links />
-        <ModeToggle />
+        <OtherStuff />
       </div>
     </div>
   );
