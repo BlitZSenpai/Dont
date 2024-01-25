@@ -21,9 +21,16 @@ export const FormComponent = () => {
   };
 
   return (
-    <form onSubmit={HandleSubmit} className="flex justify-center h-full w-full max-w-4xl space-x-2">
-      <Input onChange={(e) => setValue(e.target.value)} value={value} placeholder="Dont. Enter medium url" />
-      <Button size="lg">
+    <form
+      onSubmit={HandleSubmit}
+      className="flex justify-center h-full w-full max-w-4xl gap-2 px-6 md:px-14 lg:px-0 ">
+      <Input
+        onChange={(e) => setValue(e.target.value)}
+        value={value}
+        placeholder="Dont. do it..."
+        className="h-14"
+      />
+      <Button className="h-14 text-lg" size="lg">
         Go <ChevronsRight className="w-5 h-5 ml-0.5" />
       </Button>
     </form>

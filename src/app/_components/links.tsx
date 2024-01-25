@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Links = () => {
   return (
-    <div className="space-x-10">
+    <div className="sm:space-x-6 md:space-x-10 hidden sm:block">
       <Link
         href="/about"
         className="dark:hover:text-neutral-50 text-lg dark:text-muted-foreground transition-colors">

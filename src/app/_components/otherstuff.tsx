@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { ModeToggle } from "./darkmode-toggle";
 import { Github } from "lucide-react";
+import { ModeToggle } from "@/components/darkmode-toggle";
 
 export const OtherStuff = () => {
   return (
