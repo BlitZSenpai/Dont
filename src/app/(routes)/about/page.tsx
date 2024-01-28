@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const AboutPage = () => {
   return (
     <div className="h-dvh pt-24 px-10 space-y-4">
@@ -33,6 +35,9 @@ const AboutPage = () => {
         think to do was to make this video in hope that the world will finally see this man, for what he
         really is.
       </p>
+      <Link className="text-lg font-medium" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <span className="underline">more</span>...
+      </Link>
     </div>
   );
 };
