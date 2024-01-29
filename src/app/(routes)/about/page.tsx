@@ -35,6 +35,7 @@ const AboutPage = () => {
         think to do was to make this video in hope that the world will finally see this man, for what he
         really is.
       </p>
+      {/* drop shadow in the link class */}
       <Link
         className="text-lg font-medium bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400 bg-clip-text text-transparent hover:animate-pulse duration-500 transition-all"
         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
