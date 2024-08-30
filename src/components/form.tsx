@@ -46,20 +46,20 @@ export const FormComponent = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="flex justify-center h-full w-full max-w-4xl gap-4 px-6 md:px-14 lg:px-0">
+        className="flex flex-col md:flex-row justify-center h-full w-full gap-4 px-6 md:px-14 lg:max-w-4xl lg:px-0">
         <FormField
           control={form.control}
           name="value"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="flex-grow">
               <FormControl>
-                <Input placeholder="Dont. do it..." className="h-14" {...field} />
+                <Input placeholder="Don't do it..." className="h-14 w-full" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button className="h-14 text-lg" size="lg">
+        <Button className="h-14 text-lg whitespace-nowrap" size="lg">
           Go <ChevronsRight className="w-6 h-6 ml-[2px]" />
         </Button>
       </form>
